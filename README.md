@@ -1,46 +1,131 @@
-# AI Resume Analyzer and Job Role Predictor
+# AI Resume Analyzer
 
-An AI-based resume analysis web application that predicts suitable job roles, calculates ATS score, detects skills, finds missing skills, and generates a PDF resume analysis report.
+AI Resume Analyzer is a Machine Learning based web application that analyzes resumes and predicts suitable job roles based on skills and resume content.
+
+---
 
 ## Features
 
-- Login and Register system
-- Resume PDF upload
-- Resume text analysis
-- Machine Learning based job role prediction
-- ATS resume score
-- Skill detection
-- Missing skill suggestions
-- Skill match percentage
-- Pie chart visualization
-- Career roadmap
-- Resume analysis history using SQLite
-- Downloadable PDF report
-- Dark professional UI
+- Upload Resume PDF
+- Resume Text Extraction
+- Job Role Prediction
+- Skill Analysis
+- Machine Learning Integration
+- User Friendly Interface
+
+---
 
 ## Technologies Used
 
 - Python
-- Streamlit
+- Flask
+- Machine Learning
 - Scikit-learn
-- SQLite
 - Pandas
-- Matplotlib
-- PyPDF2
-- ReportLab
-- Joblib
+- HTML
+- CSS
+
+---
 
 ## Project Structure
 
-```text
-AI_Resume_Analyzer
+```bash
+AI_Resume_Analyzer/
 │
 ├── app.py
-├── database.py
 ├── train_model.py
-├── resume_dataset.csv
 ├── model.pkl
 ├── vectorizer.pkl
+├── resume_dataset.csv
 ├── requirements.txt
 ├── README.md
-└── resume_analyzer.db
+│
+├── templates/
+├── static/
+└── screenshots/
+```
+
+---
+
+## Installation
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/gkalgurki-design/AI_Resume_Analyzer.git
+```
+
+### 2. Open Project Folder
+
+```bash
+cd AI_Resume_Analyzer
+```
+
+### 3. Install Required Libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run Application
+
+```bash
+python app.py
+```
+
+---
+
+## Screenshots
+
+### Home Page
+
+![Home](screenshots/home.png)
+
+---
+
+### Resume Upload Page
+
+![Upload](screenshots/uplod.png)
+
+---
+
+### Prediction Result
+
+![Result](screenshots/result.png)
+
+---
+
+## Future Improvements
+
+- Better UI Design
+- Deep Learning Integration
+- More Accurate Predictions
+- Multiple Resume Format Support
+- AI Career Suggestions
+
+---
+
+## Applications
+
+- Recruitment Systems
+- HR Automation
+- Resume Screening
+- Career Guidance
+- Job Recommendation Systems
+
+---
+
+## Author
+
+### Gouri Kalgurki
+
+Computer Science Engineering Student  
+Machine Learning Enthusiast
+
+---
+
+## GitHub Repository
+
+GitHub Link:
+
+https://github.com/gkalgurki-design/AI_Resume_Analyzer
